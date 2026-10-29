@@ -178,21 +178,50 @@ policy-map OUT_TO_WAN
 {c:"sva",t:"qcm",q:`Quel SVA permet d’utiliser un même abonnement sur une télévision, un mobile, une tablette et un ordinateur ?`,o:["Le multi-écrans","Le VLAN voix","Le trunk SIP","Le mode sparse"],a:0,e:`Le multi-écrans donne accès au service depuis plusieurs types de terminaux avec un même compte ou abonnement.`},
 {c:"sva",t:"qcm",q:`Quel modèle propose un bouquet mensuel de chaînes avec ou sans engagement ?`,o:["L’abonnement","Le paiement à la carte","La publicité uniquement","Le replay de rattrapage"],a:0,e:`L’abonnement donne accès à un bouquet récurrent; il peut être complété par des contenus à la carte, de la publicité ou des offres groupées.`},
 {c:"sva",t:"qcm",q:`Quel usage de l’IA est cité parmi les services vidéo personnalisés ?`,o:["Recommandations de contenus et sous-titres automatiques","Attribution des VLAN voix","Création des trunks SIP","Remplacement de tous les décodeurs"],a:0,e:`Les supports citent recommandations personnalisées, sous-titres automatiques et détection du piratage parmi les usages possibles de l’IA.`}
+,{c:"sva",t:"qcm",q:`En économie d’entreprise, comment calcule-t-on la valeur ajoutée (VA) ?`,o:["Valeur de la production moins consommations intermédiaires","Consommations intermédiaires moins chiffre d’affaires","Quantité produite divisée par le prix unitaire","Salaires plus dividendes uniquement"],a:0,e:`VA = valeur de la production − consommations intermédiaires. Elle mesure la richesse créée par l’entreprise au-delà des biens et services achetés.`},
+{c:"sva",t:"qcm",q:`Comment calcule-t-on la valeur de la production selon le cours ?`,o:["Quantité produite multipliée par le prix unitaire","Quantité produite moins charges de personnel","Prix unitaire divisé par les consommations intermédiaires","Impôts plus dividendes"],a:0,e:`Valeur de la production = quantité produite × prix unitaire.`},
+{c:"sva",t:"qcm",q:`Que désignent les consommations intermédiaires ?`,o:["Les biens et services achetés à d’autres entreprises et utilisés pour produire","Les bénéfices conservés en réserve","Les seuls salaires versés au personnel","La valeur des produits finis vendus uniquement"],a:0,e:`Matières premières, énergie, fournitures et sous-traitance sont des exemples de consommations intermédiaires.`},
+{c:"sva",t:"qcm",q:`Une entreprise produit pour 10 000 000 F et utilise 6 000 000 F de consommations intermédiaires. Quelle est sa valeur ajoutée ?`,o:["4 000 000 F","6 000 000 F","10 000 000 F","16 000 000 F"],a:0,e:`VA = 10 000 000 − 6 000 000 = 4 000 000 F.`},
+{c:"sva",t:"qcm",q:`Quelle définition d’un SVA correspond au cours ?`,o:["Un service qui ajoute des fonctionnalités à un service de base, par exemple traitement, stockage, conversion ou mise en forme de l’information","Un bien matériel sans lien avec un service existant","Une consommation intermédiaire uniquement","Un service qui remplace obligatoirement le réseau de base"],a:0,e:`Un SVA complète un service de base et peut s’appuyer sur des biens ou services intermédiaires fournis par des tiers.`},
+{c:"sva",t:"qcm",q:`Quel service permet d’échanger des données normalisées entre les applications de partenaires commerciaux avec peu d’intervention manuelle ?`,o:["L’échange de données informatisées (EDI)","L’audiotex","Le timeshift","La messagerie vocale"],a:0,e:`L’EDI sert notamment à échanger commandes, factures et bons de livraison dans un format standard entre systèmes informatiques.`},
+{c:"sva",t:"qcm",q:`Quel service met à disposition des serveurs téléphoniques permettant d’enregistrer ou d’écouter des messages depuis un poste ordinaire ?`,o:["L’audiotex","Le CDN","Le trunk SIP","L’EPG"],a:0,e:`L’audiotex donne accès à des serveurs pour enregistrer, lire ou écouter des messages par téléphone.`},
+{c:"sva",t:"qcm",q:`Quelle différence décrit le mieux la messagerie vocale du cours ?`,o:["Elle reçoit et enregistre des messages vocaux sur des serveurs accessibles depuis un poste téléphonique","Elle échange uniquement des fichiers EDI entre entreprises","Elle convertit les noms de domaine en adresses IP","Elle diffuse les chaînes de télévision en multicast"],a:0,e:`La messagerie vocale stocke des messages vocaux sur des serveurs, accessibles depuis un téléphone.`},
+{c:"sva",t:"qcm",q:`Quel service concerne la transmission, la reproduction à distance et éventuellement le stockage de documents comme lettres, photos ou dessins ?`,o:["La télécopie améliorée","La présence SIP","Le routage PIM","L’enregistreur cloud IPTV"],a:0,e:`La télécopie améliorée s’appuie sur des serveurs pour transmettre, reproduire, stocker et consulter des documents à distance.`},
+{c:"sva",t:"qcm",q:`Quel SVA donne accès à des informations en ligne en temps réel ?`,o:["Les services d’information en ligne","Le VLAN voix","La conversion CAN/CNA uniquement","Le partage de valeur ajoutée"],a:0,e:`Le cours décrit les services on-line comme l’accès à des informations en ligne, en temps réel et sans attente.`},
+{c:"sva",t:"qcm",q:`Quel service facilite la communication entre machines hétérogènes lorsque leurs protocoles ou représentations internes diffèrent ?`,o:["La conversion de protocoles et de codes","Le replay","Le PoE","Le contrôle parental"],a:0,e:`La conversion de protocoles et de codes adapte les échanges et représentations pour permettre l’interopérabilité entre systèmes différents.`},
+{c:"sva",t:"qcm",q:`Quel ensemble de fonctions le cours regroupe-t-il sous les services Internet ?`,o:["Messagerie, transfert de fichiers, connexion à distance, dialogue écrit en temps réel et recherche d’informations","Uniquement la téléphonie analogique","Seulement l’enregistrement de noms de domaine","Le routage multicast et le contrôle PoE uniquement"],a:0,e:`Le cours regroupe notamment messagerie, transfert de fichiers, accès à des machines distantes, discussion en temps réel et recherche d’informations.`},
+{c:"sva",t:"qcm",q:`Que comprend la commercialisation de noms de domaine décrite dans le cours ?`,o:["Mise à disposition rémunérée, enregistrement et gestion des informations du nom selon la réglementation","La diffusion d’un groupe multicast","La conversion d’un numéro en codec","L’échange de factures par EDI uniquement"],a:0,e:`Le service peut inclure la commercialisation, l’enregistrement et la gestion des informations relatives aux noms de domaine conformément aux règles applicables.`},
+{c:"sva",t:"qcm",q:`Quels acteurs sont cités comme bénéficiaires du partage de la valeur ajoutée ?`,o:["Personnel, État, établissements financiers et associés","Clients, fournisseurs et concurrents uniquement","Uniquement les dirigeants","Seulement les banques et les fournisseurs"],a:0,e:`La VA rémunère notamment le personnel (salaires et cotisations), l’État (impôts et taxes), les banques (intérêts) et les associés (dividendes).`},
+{c:"sva",t:"qcm",q:`Comment appelle-t-on la part conservée dans l’entreprise sous forme de réserves et de dotations aux amortissements ?`,o:["L’autofinancement","La consommation intermédiaire","Le chiffre d’affaires","Le dividende"],a:0,e:`Le cours désigne par autofinancement ce qui reste dans l’entreprise pour financer son activité et ses projets.`},
+{c:"sva",t:"qcm",q:`Pourquoi la répartition de la valeur ajoutée oblige-t-elle à des compromis ?`,o:["Parce qu’augmenter les salaires peut réduire le bénéfice disponible pour les dividendes ou les réserves","Parce que les salaires et les dividendes sont toujours identiques","Parce que les réserves augmentent automatiquement les consommations intermédiaires","Parce que la valeur ajoutée ne peut être partagée qu’avec l’État"],a:0,e:`Les attentes peuvent être contradictoires: rémunérer davantage les salariés peut réduire le bénéfice distribuable ou mis en réserve.`},
+{c:"voice",t:"qcm",q:`Quel ensemble de protocoles le cours classe dans la signalisation VoIP ?`,o:["SIP, H.323, MGCP et SCCP","RTP, RTCP et UDP","G.711, G.723 et G.729","H.261 et H.262 uniquement"],a:0,e:`Le cours classe SIP, H.323, MGCP et SCCP parmi les protocoles de signalisation qui établissent, gèrent et terminent les appels.`},
+{c:"voice",t:"qcm",q:`Quel rôle le cours attribue-t-il à RTP et RTCP ?`,o:["Le transport de la voix et le suivi des flux média","La signalisation et l’enregistrement des terminaux uniquement","La conversion des noms de domaine","La compression des consommations intermédiaires"],a:0,e:`RTP transporte le média en temps réel; RTCP l’accompagne avec des informations de suivi et de qualité.`},
+{c:"voice",t:"qcm",q:`Parmi ces choix, lesquels sont des codecs audio cités dans le cours ?`,o:["G.711, G.723 et G.729","H.261, H.262 et MPEG-TS","SIP, MGCP et SCCP","RTP, RTCP et SDP"],a:0,e:`Le cours cite G.711, G.723 et G.729 comme codecs audio; H.261 et H.262 sont mentionnés pour la vidéo.`},
+{c:"voice",t:"qcm",q:`Quelle différence entre IPBX et PABX est donnée dans le cours ?`,o:["L’IPBX fonctionne sur un réseau IP; le PABX est l’autocommutateur privé classique de l’entreprise","Le PABX utilise uniquement le multicast et l’IPBX uniquement le satellite","L’IPBX est un codec audio et le PABX un protocole de signalisation","Il n’existe aucune différence de principe"],a:0,e:`Le cours définit l’IPBX comme un commutateur téléphonique sur réseau IP et le PABX comme l’autocommutateur privé classique.`},
+{c:"voice",t:"qcm",q:`Quelle propriété de la téléphonie analogique classique est opposée à celle du téléphone IP dans le cours ?`,o:["Le téléphone analogique classique peut fonctionner sans alimentation électrique locale, tandis que le téléphone IP dépend du courant","Le téléphone IP ne dépend jamais du réseau","Le téléphone analogique utilise toujours SIP et RTP","Le téléphone IP ne peut pas être utilisé à distance"],a:0,e:`Le cours souligne que les téléphones IP et les équipements réseau dépendent de l’alimentation électrique, contrairement au téléphone analogique classique dans le cas présenté.`},
+{c:"uc",t:"qcm",q:`Quel nom désigne la solution CME de Cisco Unified Communications dans le cours ?`,o:["CUCME","CUCM-TFTP","CME-RTCP","Cisco EDI"],a:0,e:`Le cours donne CUCME comme désignation de la solution CME de Cisco Unified Communications.`}
 ];
 const $=s=>document.querySelector(s),app=$("#app");
-let list,i,score,res,done;
+let list,i,score,answers;
 const shuffle=a=>{a=[...a];for(let j=a.length-1;j>0;j--){const k=Math.random()*(j+1)|0;[a[j],a[k]]=[a[k],a[j]]}return a};
 const TL={qcm:"QCM",cmd:"Commande",cfg:"Configuration à compléter"};
 function home(){
   const n=c=>Q.filter(x=>x.c===c).length;
   app.innerHTML=`<h1>Quiz : services à valeur ajoutée</h1><p class="sub">Téléphonie IP, IPTV, communications unifiées, réseau et modèles de services. QCM, commandes et configurations à compléter.</p>
+  <label class="limit-control" for="limit">Nombre de questions
+    <select id="limit"><option value="5">5 questions</option><option value="10" selected>10 questions</option><option value="20">20 questions</option><option value="50">50 questions</option><option value="all">Toutes</option></select>
+  </label>
   <div class="cats">${Object.entries(CATS).map(([k,v])=>`<button data-c="${k}"><b>${v[0]}</b><small>${v[1]} · ${n(k)} questions</small></button>`).join("")}
   <button data-c="all" class="primary"><b>Tout le quiz</b><small style="color:#fff">${Q.length} questions mélangées</small></button></div>`;
-  app.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>start(b.dataset.c));
+  app.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>start(b.dataset.c,$("#limit").value));
 }
-function start(c){list=shuffle(Q.filter(x=>c==="all"||x.c===c));i=0;score=0;res=[];show()}
+function start(c,limit){
+  const pool=shuffle(Q.filter(x=>c==="all"||x.c===c));
+  const count=limit==="all"?pool.length:Math.min(Number(limit),pool.length);
+  list=pool.slice(0,count);i=0;score=0;answers=Array(list.length).fill(null);show();
+}
 function show(){
-  const x=list[i];done=false;
+  const x=list[i],answer=answers[i];
   let body="";
   if(x.t==="cfg"){
     body=`<div class="cfg" id="cfg">${x.tpl.replace(/\{\{(\d)\}\}/g,(m,n)=>`<input data-n="${n}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Champ ${+n+1}">`)}</div>
@@ -204,45 +233,56 @@ function show(){
   }
   app.innerHTML=`<div class="meta"><span>Question ${i+1} / ${list.length}</span><span>Score : ${score}</span></div><div class="bar"><i style="width:${i/list.length*100}%"></i></div>
   <div class="card"><span class="tag">${CATS[x.c][0]}</span><span class="tag">${TL[x.t]}</span><p><b>${x.q}</b></p>${body}<div class="fb" id="fb"></div>
-  <div class="row" id="nx" style="display:none"><button class="primary" id="next">${i+1<list.length?"Suivant":"Voir le résultat"}</button></div></div>`;
+  <div class="row nav-row"><button id="themes">Retour aux thèmes</button><button id="previous" ${i===0?"disabled":""}>Précédent</button><button class="primary" id="next" ${answer?"":"style=\"display:none\""}>${i+1<list.length?"Suivant":"Voir le résultat"}</button></div></div>`;
+  $("#themes").onclick=home;
+  $("#previous").onclick=()=>{if(i>0){i--;show()}};
+  $("#next").onclick=()=>{if(!answers[i])return;i++;i<list.length?show():end()};
+  if(answer){
+    const fb=$("#fb");fb.style.display="block";fb.innerHTML=`<b>${answer.ok?"Correct !":"Incorrect."}</b> ${x.e}`;
+    if(x.t==="cfg")app.querySelectorAll(".cfg input").forEach(el=>{el.value=answer.values[+el.dataset.n]||""});
+    else app.querySelectorAll(".opts button").forEach(button=>{
+      if(button.dataset.v===x._c)button.classList.add("ok");
+      if(button.dataset.v===answer.selected&&!answer.ok)button.classList.add("ko");
+    });
+  }
   if(x.t==="cfg"){
     $("#chk").onclick=()=>checkCfg(x);
     const ins=app.querySelectorAll(".cfg input");ins[0].focus();
     ins.forEach(el=>el.addEventListener("keydown",e=>{if(e.key==="Enter")checkCfg(x)}));
   }else app.querySelectorAll(".opts button").forEach(b=>b.onclick=()=>pick(x,b));
 }
-function feedback(x,ok){
-  done=true;
+function feedback(x,ok,details){
+  answers[i]={ok,...details};
+  score=answers.filter(answer=>answer&&answer.ok).length;
   const fb=$("#fb");fb.style.display="block";fb.innerHTML=`<b>${ok?"Correct !":"Incorrect."}</b> ${x.e}`;
-  $("#nx").style.display="flex";$("#next").onclick=()=>{i++;i<list.length?show():end()};
-  if(ok)score++;
-  res.push({q:x.q,ok});
+  $("#next").style.display="inline-block";
+  $(".meta span:last-child").textContent=`Score : ${score}`;
 }
 function pick(x,b){
-  if(done)return;
   const ok=b.dataset.v===x._c;
   app.querySelectorAll(".opts button").forEach(o=>{o.disabled=true;if(o.dataset.v===x._c)o.classList.add("ok")});
   if(!ok)b.classList.add("ko");
-  feedback(x,ok);
+  feedback(x,ok,{selected:b.dataset.v});
 }
 function checkCfg(x){
-  if(done)return;
+  const values=[];
   let all=true;
   app.querySelectorAll(".cfg input").forEach(el=>{
-    const v=el.value.trim().toLowerCase(),good=x.k[+el.dataset.n].map(s=>s.toLowerCase()).includes(v);
+    const v=el.value.trim(),good=x.k[+el.dataset.n].map(s=>s.toLowerCase()).includes(v.toLowerCase());
+    values[+el.dataset.n]=v;
     el.classList.add(good?"ok":"ko");el.disabled=true;
     if(!good){all=false;el.value=x.k[+el.dataset.n][0]}
   });
   $("#chk").disabled=true;
-  feedback(x,all);
+  feedback(x,all,{values});
 }
 function end(){
   const p=Math.round(score/list.length*100);
   app.innerHTML=`<div class="card"><p class="sub">Résultat</p><div class="score">${score} / ${list.length} (${p} %)</div>
   <p>${p>=80?"Excellent, vous maîtrisez le sujet.":p>=50?"Bien, quelques notions à revoir.":"À retravailler : relisez les explications et recommencez."}</p>
-  <div class="rev">${res.map(r=>`<p class="${r.ok?"y":"n"}">${r.ok?"✔":"✘"} ${r.q}</p>`).join("")}</div>
+  <div class="rev">${answers.map((answer,index)=>`<p class="${answer.ok?"y":"n"}">${answer.ok?"✔":"✘"} ${list[index].q}</p>`).join("")}</div>
   <div class="row"><button class="primary" id="re">Rejouer</button><button id="hm">Choisir un thème</button></div></div>`;
-  $("#re").onclick=()=>{list=shuffle(list);i=0;score=0;res=[];show()};
+  $("#re").onclick=()=>{list=shuffle(list);i=0;score=0;answers=Array(list.length).fill(null);show()};
   $("#hm").onclick=home;
 }
 home();

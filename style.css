@@ -7,8 +7,11 @@ h1{font-size:1.5rem;margin:.2em 0}
 .sub{color:var(--mut);margin:0 0 18px}
 .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
 .cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.limit-control{display:flex;align-items:center;gap:12px;margin:18px 0;color:var(--mut);font-weight:600}
+select{font:inherit;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:8px 12px}
 button{font:inherit;cursor:pointer;border-radius:10px;border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:12px 14px;text-align:left}
 button:hover:not(:disabled){border-color:var(--ac)}
+button:disabled{opacity:.45;cursor:not-allowed}
 .cats button b{display:block}.cats button small{color:var(--mut)}
 .primary{background:var(--ac);color:#fff;border-color:var(--ac);text-align:center}
 .bar{height:6px;background:var(--bd);border-radius:6px;overflow:hidden;margin-bottom:12px}
@@ -26,5 +29,6 @@ code,.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
 .cfg input.ko{border-bottom:2px solid #f87171;color:#f87171}
 .fb{margin-top:12px;padding:10px 12px;border-left:4px solid var(--ac);background:color-mix(in srgb,var(--ac) 10%,var(--card));border-radius:6px;display:none}
 .row{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.nav-row{justify-content:space-between}
 .score{font-size:2.4rem;font-weight:700}
 .rev p{margin:.3em 0}.rev .y{color:var(--ok)}.rev .n{color:var(--ko)}
